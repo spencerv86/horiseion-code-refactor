@@ -60,13 +60,13 @@ nav ul li {
     background-position: center;
 }
 
-.abilities {
+.main-points {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-article {
+.abilities {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -75,7 +75,7 @@ article {
     color: #ffffff;
 }
 
-article h2 {
+.abilities h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
