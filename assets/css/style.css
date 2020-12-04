@@ -4,14 +4,17 @@
     margin: 0;
 }
 
+/* Sets the background color for the entire page */
 body {
     background-color: #d9dcd6;
 }
 
+/* To set the font for all paragraph tags */
 p {
     font-size: 16px;
 }
 
+/* To format the main header*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,15 +22,18 @@ header {
     color: #ffffff;
 }
 
+/* Formatting for the Company name in the header */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Classed to point out that SEO is literally in their name :0 */
 #seo {
     color: #d9dcd6;
 }
 
+/* Formatting for the nav section to the right of the company name in header */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,6 +56,7 @@ nav ul li {
     text-decoration: none;
 }
 
+/* Formatting for main background image on adsheet */
 .hero {
     height: 1100px;
     width: 100%;
@@ -60,12 +67,14 @@ nav ul li {
     background-position: center;
 }
 
+/* Formatting for the container that will highlight each ability */
 .main-points {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Formatting for each box within the 'main-points' container and their contents */
 .abilities {
     margin-bottom: 20px;
     padding: 50px;
@@ -80,18 +89,21 @@ nav ul li {
     font-size: 36px;
 }
 
+/* Sets top and bottom images to float left in the abilities sections */
 .img-left {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
 
+/* Sets middle image to float right within the abilities section */
 .img-right {
     max-height: 200px;
     float: right;
     margin-left: 25px;
 }
 
+/* Formatting for the aside container with extra benefits */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -103,6 +115,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* All 'benefits' tags define the text, margins and image placement for boxes within aside container*/
 .benefits {
     margin-bottom: 32px;
     color: #ffffff;
@@ -119,6 +132,7 @@ aside {
     max-width: 150px;
 }
 
+/* Defines sizing of footer and font for footer-text */
 footer {
     padding: 30px;
     clear: both;
